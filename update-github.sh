@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git commit -m 'added another domain'
+git commit essential-business -m 'added another domain'
 git push origin
