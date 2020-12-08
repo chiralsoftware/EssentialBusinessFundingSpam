@@ -6,7 +6,7 @@ die() { echo "$*" 1>&2 ; exit 1; }
 
 echo Doing a Git update ...
 
-curl --no-progress-meter \
+curl --silent \
      https://raw.githubusercontent.com/chiralsoftware/EssentialBusinessFundingSpam/main/essential-business > \
      /etc/postfix/essential-business || die "Couldn't fetch file from GitHub"
 
