@@ -1,4 +1,4 @@
-# EssentialBusinessFundingSpam
+# Essential Business Funding Spam
 
 Some spammers called Essential Business Funding register more domains every day - this is their block list
 
@@ -15,22 +15,22 @@ We update this every day as these scammers register more domains and send more e
 
 Create a file called /etc/postfix/other-checks which contains any local header checks lines you want to use.
 
-Install the update-spam.sh script into /etc/postfix (or anywhere convenient).
+Install the `update-spam.sh` script into `/etc/postfix` (or anywhere convenient). Make sure it is executable:
 
-Run the update-spam.sh script the first time:
+    chmod ugo+rx /etc/postfix/update-spam.sh
+
+Run the `update-spam.sh` script the first time:
 
     /etc/postfix/update-spam.sh
 
 Add the update-spam.sh to your cron jobs:
 
-   todo
+    @daily /etc/postfix/update-spam.sh
 
 Add:
 
     header_checks = regexp:/etc/postfix/header_checks
 
-to `/etc/postfix/main.cf`
+to `/etc/postfix/main.cf` if it isn't there already.
 
-Done! You will not receive any more spam and scam emails from Essential Business Funding
-
-
+Done! This is how you unsubscribe from Essential Business Funding.

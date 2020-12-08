@@ -6,7 +6,8 @@ die() { echo "$*" 1>&2 ; exit 1; }
 
 echo Doing a Git update ...
 
-curl https://raw.githubusercontent.com/chiralsoftware/EssentialBusinessFundingSpam/main/essential-business > \
+curl --no-progress-meter \
+     https://raw.githubusercontent.com/chiralsoftware/EssentialBusinessFundingSpam/main/essential-business > \
      /etc/postfix/essential-business || die "Couldn't fetch file from GitHub"
 
 echo Creating new header_checks with Git plus local domains...
