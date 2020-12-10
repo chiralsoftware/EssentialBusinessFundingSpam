@@ -2,8 +2,8 @@
 
 /^From: .*@theessentlbusinessfunding.com/ DISCARD spam rule essentialbusiness
 /^From: .*@theessentlbizfintech.com/ DISCARD spam rule essentialbusiness
+/^From: .*@youressentlbizfintech.com/ DISCARD spam rule essentialbusiness
 
-#/^From: .*/ DISCARD spam rule essentialbusiness
 #/^From: .*/ DISCARD spam rule essentialbusiness
 #/^From: .*/ DISCARD spam rule essentialbusiness
 #/^From: .*/ DISCARD spam rule essentialbusiness
