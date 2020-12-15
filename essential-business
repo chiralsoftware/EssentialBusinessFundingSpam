@@ -5,17 +5,18 @@
 #/^From: .*/ DISCARD spam rule essentialbusiness
 #/^From: .*/ DISCARD spam rule essentialbusiness
 #/^From: .*/ DISCARD spam rule essentialbusiness
-#/^From: .*/ DISCARD spam rule essentialbusiness
 
-/^From: .*@theessentlbusinessfunding.com/ DISCARD spam rule essentialbusiness
+/^From: .*@essentlbizfintech.com/ DISCARD spam rule essentialbusiness
+/^From: .*@getessentlbizfintech.com/ DISCARD spam rule essentialbusiness
 /^From: .*@theessentlbizfintech.com/ DISCARD spam rule essentialbusiness
 /^From: .*@youressentlbizfintech.com/ DISCARD spam rule essentialbusiness
+
+/^From: .*@theessentlbusinessfunding.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essntialbusiness-financings.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essntialbusiness.com/ DISCARD spam rule essentialbusiness
 /^From: .*@goessentialbiz.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essentialbuisinessfinance.com/ DISCARD spam rule essentialbusiness
 /^From: .*@getessentlbusiness.com/ DISCARD spam rule essentialbusiness
-/^From: .*@getessentlbizfintech.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essentlbusiness.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essentlbusinessfinance.com/ DISCARD spam rule essentialbusiness
 /^From: .*@getessentlbizfi.com/ DISCARD spam rule essentialbusiness
