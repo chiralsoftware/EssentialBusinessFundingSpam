@@ -3,6 +3,7 @@
 
 #/^From: .*/ DISCARD spam rule essentialbusiness
 
+/^From: .*@essentialbuisiness-finance.com/ DISCARD spam rule essentialbusiness
 /^From: .*@peakbusinessfinancingservices.com/ DISCARD spam rule essentialbusiness
 /^From: .*@peakbusinessfinancing-services.com/ DISCARD spam rule essentialbusiness
 /^From: .*@peakbusinessfinancing-app.com/ DISCARD spam rule essentialbusiness
