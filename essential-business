@@ -1,8 +1,8 @@
 # Header checks to remove Essential Business Funding spam
 
-
 #/^From: .*/ DISCARD spam rule essentialbusiness
 
+/^From: .*@peakbusinessfinancingfund.com/ DISCARD spam rule essentialbusiness
 /^From: .*@gopeakbusinessfinancing.com/ DISCARD spam rule essentialbusiness
 /^From: .*@essentialbuisiness-today.com/ DISCARD spam rule essentialbusiness
 /^From: .*@peakbusinessfinancingapps.com/ DISCARD spam rule essentialbusiness
